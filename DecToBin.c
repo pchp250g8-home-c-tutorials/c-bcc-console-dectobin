@@ -48,10 +48,11 @@ int _tmain(int argc, _TCHAR* argv[])
     }
     else
     {
+        char szBinaryNum[] = "0";
         printf
         (
-        	"The binary equivalent of the decimal number %lld is 0\r\n",
-            uDecNumber
+        	"The binary equivalent of the decimal number %lld is %s\r\n",
+            uDecNumber,szBinaryNum
         );
     }
     getchar();

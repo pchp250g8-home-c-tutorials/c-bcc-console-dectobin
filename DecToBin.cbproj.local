@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.228,D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\DecToBin.cbproj=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.054,D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\DecToBin.c=D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\File1.c</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.191,D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\DecToBinPCH1.h=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.939,D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\DecToBin.cbproj=D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\DecToBin.cbproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.093,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.210,D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\File1.c=C:\Users\PC\Documents\Embarcadero\Studio\Projects\File1.c</Transaction>
     <Transaction>1899.12.30 00:00:00.000.276,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\File1.c</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.939,D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\DecToBin.cbproj=D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\DecToBin.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.228,C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\DecToBin.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.210,C:\Users\PC\Documents\Embarcadero\Studio\Projects\File1.c=D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\File1.c</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.191,C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\DecToBinPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.093,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.054,D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\File1.c=D:\Projects\Programming\C\BDS\Console\Algorithms\DecToBin\DecToBin.c</Transaction>
   </Transactions>
 </BorlandProject>
