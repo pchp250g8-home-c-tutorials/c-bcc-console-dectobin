@@ -8,11 +8,11 @@
 
 int _tmain(int argc, _TCHAR* argv[]) 
 {
-    long uDecNumber, uTempVal;
+    long long uDecNumber, uTempVal;
     unsigned int nBinaryDigits = 0;
     char* szBinaryNum;
     printf("Input an unsigned integer number\r\n");
-    scanf("%lu", &uDecNumber);
+    scanf("%lld", &uDecNumber);
     if (uDecNumber < 0 || uDecNumber > UINT32_MAX)
     {
         printf("Incorrect number format\r\n");
@@ -34,13 +34,14 @@ int _tmain(int argc, _TCHAR* argv[])
         _strset(szBinaryNum, 0);
         for (unsigned int i = 0; i < nBinaryDigits; i++)
         {
-            char chBinDighit = '0' + (uTempVal % 2);
+            int nBinDigit = uTempVal % 2;
+            char chBinDighit = '0' + nBinDigit;
             szBinaryNum[nBinaryDigits - 1 - i] = chBinDighit;
             uTempVal /= 2;
         }
         printf
         (
-        	"The binary equivalent of the decimal numner %lu is %s\r\n",
+        	"The binary equivalent of the decimal numner %lld is %s\r\n",
             uDecNumber,szBinaryNum
         );
         free(szBinaryNum);
@@ -49,7 +50,7 @@ int _tmain(int argc, _TCHAR* argv[])
     {
         printf
         (
-        	"The binary equivalent of the decimal number %lu is 0\r\n",
+        	"The binary equivalent of the decimal number %lld is 0\r\n",
             uDecNumber
         );
     }
